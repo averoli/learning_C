@@ -13,7 +13,7 @@ int main()
     printf("Fahrenheit Celsius\n");
     while (farh <= upper)
     {
-        celsius = (5.0 / 9.0) * (farh - 32.0);
+        celsius = (5 / 9.0) * (farh - 32.0);
         printf("%3.0f \t%6.1f\n", farh, celsius);
         farh = farh + 20;
     }
